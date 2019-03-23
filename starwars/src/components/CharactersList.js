@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Character from "./Character";
+import './StarWars.css';
 
 class CharactersList extends Component {
   render() {
