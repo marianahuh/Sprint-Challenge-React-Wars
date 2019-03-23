@@ -1,0 +1,11 @@
+.main-chars {
+  padding: 2%;
+  font-size: 23px;
+  color: black;
+}
+
+.btn-open {
+  background-color: lightblue;
+  margin-left: 2%;
+  width: 5%;
+}

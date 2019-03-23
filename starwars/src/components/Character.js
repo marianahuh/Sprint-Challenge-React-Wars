@@ -5,7 +5,17 @@ class Character extends Component {
     super(props);
 
     this.state = {
+      expanded: false
     };
+  }
+
+  render() {
+    const bio = this.props.character;
+    if (!this.state.expanded) {
+      return (
+        <button className="btn-open" onClick={this.open}>Bio</button>
+      );
+    }
   }
 }
 
